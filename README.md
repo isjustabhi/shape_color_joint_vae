@@ -30,7 +30,7 @@ The model improves significantly with training:
 - Outputs are blurry and mostly grayscale.
 - Shape structure is weakly captured.
 
-![Epoch 10 Output](<img width="266" height="134" alt="image" src="https://github.com/user-attachments/assets/dde13d6e-def9-4ab3-99c1-da71ea4c75bd" />
+![Epoch 10 Output](<img width="266" height="134" alt="output_epoch10" src="https://github.com/user-attachments/assets/7cad59bc-3bbf-41c0-bdb7-ac87b44839f7" />
 )
 
 ---
@@ -38,7 +38,8 @@ The model improves significantly with training:
 ### **Epoch 50**
 - Shapes are more distinct, basic colors appear faintly.
 
-*(Add image if available)*
+*(<img width="266" height="134" alt="output_epoch50" src="https://github.com/user-attachments/assets/461863bd-ec5c-4061-adad-d43377fd1c73" />
+)*
 
 ---
 
@@ -47,7 +48,7 @@ The model improves significantly with training:
 - Green improved but still less consistent.
 - Minor color bleeding on edges.
 
-![Epoch 100 Output](<img width="266" height="134" alt="image" src="https://github.com/user-attachments/assets/aca7e71a-f975-4eb4-9ad6-ffe3eaef89df" />
+![Epoch 100 Output](<img width="266" height="134" alt="output_epoch100" src="https://github.com/user-attachments/assets/9f0f2742-912b-4f9f-8fa9-cabd9c14b118" />
 )
 
 ---
@@ -56,7 +57,6 @@ The model improves significantly with training:
 The Joint VAE successfully learns the joint distribution P(shape, color), but struggles with green consistency due to possible class imbalance or limited latent capacity.
 
 ---
-
 
 ## ✅ **How to Run**
 ```bash
