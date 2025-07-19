@@ -30,8 +30,8 @@ The model improves significantly with training:
 - Outputs are blurry and mostly grayscale.
 - Shape structure is weakly captured.
 
-![Epoch 10 Output](<img width="266" height="134" alt="output_epoch10" src="https://github.com/user-attachments/assets/7cad59bc-3bbf-41c0-bdb7-ac87b44839f7" />
-)
+![Epoch 10 Output]*(<img width="266" height="134" alt="output_epoch10" src="https://github.com/user-attachments/assets/7cad59bc-3bbf-41c0-bdb7-ac87b44839f7" />
+)*
 
 ---
 
