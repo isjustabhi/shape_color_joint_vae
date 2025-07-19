@@ -13,7 +13,7 @@ from vae_model import ConvVAE
 
 # Config
 DEVICE = torch.device("cuda" if torch.cuda.is_available() else "cpu")
-EPOCHS = 50
+EPOCHS = 100
 BATCH_SIZE = 32
 LATENT_DIM = 32
 SAMPLE_EVERY = 10
@@ -65,4 +65,4 @@ for epoch in range(EPOCHS):
 
 # Save model
 torch.save(model.state_dict(), "models/joint_vae.pth")
-print("✅ Joint VAE model saved.")
+print(" Joint VAE model saved.")
