@@ -5,14 +5,14 @@ This project implements a **Joint Variational Autoencoder (VAE)** that learns th
 
 ---
 
-## ✅ **Project Overview**
+## **Project Overview**
 - **Objective:** Model P(shape, color) directly with a single VAE.
 - **Dataset:** Synthetic RGB images of geometric shapes (circle, square, triangle) in {red, green, blue}.
 - **Model:** Convolutional VAE with latent dimension = 32.
 
 ---
 
-## ✅ **Key Files**
+## **Key Files**
 - `scripts/generate_dataset.py` → Generate synthetic RGB dataset.
 - `vae_model.py` → Convolutional VAE architecture.
 - `vae_dataset.py` → PyTorch dataset loader.
@@ -23,7 +23,7 @@ This project implements a **Joint Variational Autoencoder (VAE)** that learns th
 
 ---
 
-## ✅ **Results (100 Epochs)**
+##  **Results (100 Epochs)**
 The model improves significantly with training:
 
 ### **Epoch 10**
@@ -48,8 +48,8 @@ The model improves significantly with training:
 - Green improved but still less consistent.
 - Minor color bleeding on edges.
 
-![Epoch 100 Output](<img width="266" height="134" alt="output_epoch100" src="https://github.com/user-attachments/assets/9f0f2742-912b-4f9f-8fa9-cabd9c14b118" />
-)
+![Epoch 100 Output]*(<img width="266" height="134" alt="output_epoch100" src="https://github.com/user-attachments/assets/9f0f2742-912b-4f9f-8fa9-cabd9c14b118" />
+)*
 
 ---
 
@@ -58,7 +58,7 @@ The Joint VAE successfully learns the joint distribution P(shape, color), but st
 
 ---
 
-## ✅ **How to Run**
+##  **How to Run**
 ```bash
 # 1. Generate dataset
 python scripts/generate_dataset.py
